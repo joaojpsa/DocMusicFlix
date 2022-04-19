@@ -34,6 +34,12 @@ header nav a{
 header nav a:hover{
     color:aliceblue;
 }
+.destaque{
+    font-size: 20px;
+    margin-top: 10px;
+
+    margin-left: 5px;
+}
 /*filme principal*/
 
 .filme-principal{
@@ -69,6 +75,15 @@ header nav a:hover{
     margin-right: 15px;
     font-size: 12px;
 }
+.botao i a{
+    text-decoration: none;
+    color: #ADD8E6;
+}
+a:link {
+    color:none;
+    background-color:transparent;
+    text-decoration:none;}
+
 .botao:hover{
     background-color: aliceblue;
     color: black;
@@ -89,4 +104,52 @@ header nav a:hover{
 }
 .carousel-filmes{
     margin-top: 5px;
+}
+/*filme nacional*/
+.filme-nacional{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/img_doc/obarato/back.jpg");
+    height: 400px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-nacional .descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filme-nacional .descricao_autor{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.filme-nacional .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* filme internacinal*/
+.filme-internacional{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/img_doc/nina/back.jpg");
+    height: 400px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-internacional .descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filme-internacional .descricao_autor{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.filme-internacional .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
